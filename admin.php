@@ -160,7 +160,7 @@ if (!empty($_SESSION && $_SESSION['sess'] === $_COOKIE['PHPSESSID'])) {
 							</td>
 							<td>
 								<button class="btn24" type="submit" name="delete" value="<?=$value['id'];?>">
-									<img src="img/Data-Delete-24.png" alt="Удалить">
+									<img src="img/Garbage-Closed-24.png" alt="Удалить">
 								</button>
 							</td>
 						</tr>
