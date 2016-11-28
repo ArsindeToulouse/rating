@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Мысли вслух или ...</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/sha1.js"></script>
+	<script src="js/xhr.js"></script>
+</head>
+<body>
+	<!--<div id="wrapper">-->
+	<div class="wrapper">
+		<!-- верхний колонтитул -->
+		<header class="row header">
+			<div class="logo">Мысли вслух или ...</div>
+		</header>
+		<section id="content" class="content">
+			<h1>что Вы думаете по этому поводу?</h1>
+			<blockquote class="cite-text">"С точки зрения банальной эрудиции не каждый индивидуум способен игнорировать критерии утопического субъективизма"</blockquote>
+			<div id="responseOutput" class="output u-full-width"></div>
+			<div>
+				<form name="rates">
+					<div name="comments" class="comments">
+						<textarea class="u-full-width" name="comment" id="commentItem"></textarea>
+					</div>
+					<div id="radios">
+						<div class="radio-group">
+							<label for="">полный бред</label>
+							<input type="radio" name="rating" value="1">
+						</div>
+						<div class="radio-group">
+							<label for="">бред</label>
+							<input type="radio" name="rating" value="2">
+						</div>
+						<div class="radio-group">
+							<label for="">ОК</label>
+							<input type="radio" name="rating" value="3">
+						</div>
+						<div class="radio-group">
+							<label for="">а может...</label>
+							<input type="radio" name="rating" value="4">
+						</div>
+						<div class="radio-group">
+							<label for="">гениально</label>
+							<input type="radio" name="rating" value="5">
+						</div>
+					</div>
+					<div>
+						<input type="button" id="editComment" value="Редактировать">
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- нижний колонтитул -->
+		<footer class="footer">
+			<div class="copyright">"Гениальные мысли" @ 2016</div>
+		</footer>
+	</div>
+</body>
+</html>
