@@ -7,9 +7,9 @@ error_reporting(E_ALL);
 //require_once __DIR__.'\vendor\autoload.php';
 
 define('HOST', 'localhost');
-define('DB', 'global');
-define('USER', 'mysql');
-define('PASS', 'mysql');
+define('DB', '');
+define('USER', '');
+define('PASS', '');
 
 /*define('DB', 'ushina');
 define('USER', 'ushina');
